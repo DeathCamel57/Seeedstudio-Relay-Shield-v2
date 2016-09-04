@@ -11,32 +11,32 @@ relay::relay(int relaynum) {
 
 void relay::num1(int state) {
   if (state == 1) {
-    digitalWrite(7, HIGH); // Turns on EL Wire
+    digitalWrite(7, HIGH);
   } else if (state == 0) {
-    digitalWrite(7, LOW); // Turns off EL Wire
+    digitalWrite(7, LOW);
   }
 }
 
 void relay::num2(int state) {
   if (state == 1) {
-    digitalWrite(8, HIGH); // Turns on EL Wire
+    digitalWrite(8, HIGH);
   } else if (state == 0) {
-    digitalWrite(8, LOW); // Turns off EL Wire
+    digitalWrite(8, LOW);
   }
 }
 
 void relay::num3(int state) {
   if (state == 1) {
-    digitalWrite(9, HIGH); // Turns on EL Wire
+    digitalWrite(9, HIGH);
   } else if (state == 0) {
-    digitalWrite(9, LOW); // Turns off EL Wire
+    digitalWrite(9, LOW);
   }
 }
 
 void relay::num4(int state) {
   if (state == 1) {
-    digitalWrite(10, HIGH); // Turns on EL Wire
+    digitalWrite(10, HIGH);
   } else if (state == 0) {
-    digitalWrite(10, LOW); // Turns off EL Wire
+    digitalWrite(10, LOW);
   }
 }
